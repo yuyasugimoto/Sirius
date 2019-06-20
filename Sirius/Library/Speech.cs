@@ -12,6 +12,8 @@ namespace Sirius.Library
 
             TextToSpeechClient client = TextToSpeechClient.Create();
 
+            client = null;
+
             SynthesisInput input = new SynthesisInput
             {
                 Text = text
